@@ -1,0 +1,10 @@
+[package]
+name = "rs-preload-example"
+version = "0.1.0"
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+ld_preload = "0.1.2"
+procinfo = "0.4.2"
